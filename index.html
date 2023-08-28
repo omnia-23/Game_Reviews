@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Games</title>
+  </head>
+  <body>
+    <Loading id="loading">Loading...</Loading>
+    <section id="home">
+      <header></header>
+      <nav class="navbar navbar-expand-lg w-75 mx-auto rounded-4 shadow">
+        <div class="container-fluid">
+          <img src="imgs/logo-sm.png" class="m-1" width="40" alt="logo" />
+          <span class="navbar-brand text-light" href="#">GAME REVIEWS</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">MMORPG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SHOOTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">SAILING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">PERMADEATH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">SUPERHERO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">PIXEL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="games">
+        <div class="container">
+          <div id="games_body" class="row"></div>
+        </div>
+      </section>
+    </section>
+    <section id="details">
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>
