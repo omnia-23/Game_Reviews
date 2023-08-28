@@ -1,0 +1,84 @@
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: #272b30;
+}
+header {
+  height: 30vh;
+  background-image: url(../imgs/wraper.png);
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  background-color: #3a497b;
+  margin-top: -30px;
+}
+.navbar a {
+  color: #fff;
+  font-family: "Comfortaa", cursive;
+}
+.nav-item {
+  font-size: 12px;
+}
+.nav-item :hover {
+  color: #1d71a3;
+  cursor: pointer;
+}
+.hover {
+  color: #1d71a3 !important;
+}
+.navbar-brand {
+  font-size: 20px;
+}
+.card {
+  background-color: #272b30;
+  color: #fff;
+  height: 100%;
+}
+.card:hover {
+  transform: scale(1.07);
+  transition: transform 1s;
+  cursor: pointer;
+}
+.gamescard {
+  border: rgb(19, 19, 19) 1px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0px;
+}
+.card-footer {
+  border-top: 1px black solid;
+}
+.games img {
+  width: 100%;
+}
+.txtheader {
+  background-color: #3a497b;
+}
+.txtheader:hover {
+  background-color: #1d71a3;
+}
+.txtfooter {
+  background-color: #32383e;
+}
+#loading {
+  background-color: #057bf1;
+  position: fixed;
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.details {
+  color: #fff;
+}
+.details p {
+  font-size: 16px;
+}
+.details .paragraph {
+  font-size: 14px;
+}
